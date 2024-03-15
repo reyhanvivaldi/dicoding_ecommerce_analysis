@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
 from helper import *
 
 data = pd.read_csv("all_data.csv")
