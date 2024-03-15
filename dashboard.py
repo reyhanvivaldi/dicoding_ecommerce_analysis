@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
-from helper import *
+from dashboard.helper import *
 
 data = pd.read_csv("all_data.csv")
 
